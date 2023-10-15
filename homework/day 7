@@ -1,0 +1,8 @@
+adults = 10
+children = 3
+sum = 0
+while adults > 0:
+    sum += 25
+    adults -= 1
+else:
+    print("your total is " + str(sum) + " GEL")
