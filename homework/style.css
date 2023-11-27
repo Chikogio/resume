@@ -1,0 +1,28 @@
+@import url('https://fonts.google.com/specimen/Mountains+of+Christmas?query=Mounta');
+
+
+img{
+     width:1000px;
+
+
+}
+h1{
+    color: red;
+    font-family: 'Mountains of Christmas';
+    font-style:italic;
+    font-size:110px;
+    font-weight: 1000;
+    text-decoration: underline;
+    text-decoration-color: green;
+    text-decoration-style: dotted;
+    text-align: center;
+}
+p{
+    color: red;
+    font-family: 'Mountains of Christmas';
+    font-style:italic;
+    font-size:30px;
+    font-weight: 1000;
+    text-decoration-color: green;
+    
+}
