@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Document</title>
+
+    <style>
+        /* როდესაც შენ გადახვალ უკვე გასტილვაზე, კონკრეტულად დაჯგუფებული ემენეტები რომელიც კლასსის მეშვობით დავაჯგუფეთ, ამის არჩევა css ში ხდება .(კლასის სახელი) მაგ: .saxeli {} */
+        .texti{
+            color: red;
+        }
+
+        /* id_ის შემთხვევაში შენ იყენებ # */
+        #main-title{
+            color: green;
+        }
+
+    </style>
+</head>
+<body>
+    <!-- როდესაც გაქვს საიტზე ისეთი ელემენტი რომლის სტილიც უნიკალურია ამ დროს ვიყენებთ id -->
+
+    <h1 id="main-title">Hello</h1>
+    <!-- მე მინდა რომ რამოდენიმე ელემენტს ჰქონდეს ერთი და იგივე სტილი, ამისთვის მე გამოვიყენებ კლასს რომ დავაჯგუფო ისინი -->
+
+    <p class="texti">Hello to create an account for youtube please complete tasks below</p>
+    
+
+    
+
+    <!-- თქვენ რომ შეგქმნათ შესატანი ფორმა სადაც შეგეძლებათ მონაცემების შეტანა და გაგზავნა აუცილებელია რომ გამოიყენოთ კონტეინერ თეგი სახელად form ხოლო მასში შეიტან იმ ელემენტებს რომელიც დაკვშირებულია კონკრეტულ ფორმასთან -->
+
+    <form>
+        <!-- label რომ დავაკავშიროთ input წყაროსთან საჭიროა გქონდეთ უნიკალური id რომელსაც for ის მეშვეობით დააკავშირებთ -->
+        <label for="fullname">Please enter your fullname: </label>
+        <input id="fullname" type="text" required>
+        <br>
+        <br>
+        <label for="elposta">Please enter your email: </label>
+        <input id="elposta" type="email" placeholder="Enter email*" required>
+        <br>
+        <br>
+        <label for="paroli">Please enter your password: </label>
+        <input id="paroli" type="password" placeholder="Enter password*" required>
+        <br>
+        <label for="feri">Please enter your fauvorite color: </label>
+        <input id="feri" type="color" placeholder="Enter color*" required>
+        <br>
+        <input id="checki" type="checkbox">
+        <label for="checki">Agree this document.</label>
+        <br>
+        <br>
+        <button type="reset">save</button>
+    </form>
+</body>
+</html>
