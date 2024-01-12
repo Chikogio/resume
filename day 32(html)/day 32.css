@@ -1,0 +1,149 @@
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    font-family: 'Segoe UI', Tahoma, 'Geneva', Verdana, sans-serif;
+    
+    background-color: white; 
+}
+
+header {
+    background-color: #f15151; 
+    color: #fff;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.logo img {
+    height: 80px;
+}
+
+nav {
+    background-color: #f52828; 
+    padding: 15px 0;
+    box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    
+}
+
+nav li {
+    margin-right: 20px;
+    margin-left: 20px;
+}
+
+nav a {
+    text-decoration: none;
+    color: #fff; 
+    padding: 15px 100px;
+    display: inline-block;
+    transition: 0.3s;
+}
+
+nav a:hover {
+    background-color: #fa3d0d;
+    border-radius: 20px;
+}
+
+section {
+    padding: 40px;
+    position: relative;
+    background-color: #fff;
+    border-radius: 5px;
+    box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.1);
+    margin-bottom: 20px;
+}
+
+h2 {
+    color: #470101;
+}
+
+.product img:hover {
+    transform: scale(1.1);
+}
+
+.product {
+    margin-bottom: 40px;
+    padding: 20px;
+    background-color: #ecf7ff; 
+    border: 1px solid #ff9696; 
+    border-radius: 5px;
+    box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.product img {
+    width: 100%;
+    max-height: 150px;
+    object-fit: contain;
+    border-radius: 5px;
+    transition: 0.3s;
+}
+
+.product h3 {
+    color: #ff5f20;
+}
+
+.form-wrapper {
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+
+
+form label,
+form input,
+form textarea,
+form button {
+    display: block;
+    margin-bottom: 10px;
+    width: 100%;
+    
+    padding: 10px;
+    box-sizing: border-box;
+    border: 1px solid #ffb3b3;
+    border-radius: 5px;
+}
+
+form textarea {
+    resize: vertical;
+}
+
+form button {
+    background-color: #fa4f00; 
+    color: #fff; 
+    cursor: pointer;
+    margin-bottom: 50px;
+}
+
+form button:hover {
+    background-color: #ff0000;
+    transition-duration: 0.1s;
+}
+
+footer {
+    background-color: #ff0000;
+    color: #fff;
+    text-align: center;
+    
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    margin-top: 3px;
+}
+
+#about {
+    text-align: center;
+}
+
+#ProductsName{
+    text-align: center;
+}
+
